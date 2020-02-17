@@ -14,7 +14,7 @@ Top Level Domain: .ee
 Alpha3 Code: EST
 Currency: €
 
-## To get 4 or higher
+## To get '4' or higher
 - make and HTTP request using 'request' package (the package has been depricated but is still fully functioning), as alternative I strongly recommend using https://www.npmjs.com/package/axios
 - the data from the controller (server.js) is passed to a ejs template using <%= > markers
 - when a user calls on localhost:3000, the page displays the following data from the API:
